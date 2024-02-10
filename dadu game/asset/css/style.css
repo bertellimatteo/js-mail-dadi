@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 80%;
+  margin: 1rem 3rem;
+  padding: 1rem 3rem;
+  text-align: center;
+  background: #191826;
+  border-radius: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #f0f0f0;
+  margin: 1rem;
+}
+
+.container-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 1;
+  height: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #191826;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: #f0f0f0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.gioco {
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.risultato {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
